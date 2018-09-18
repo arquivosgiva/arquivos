@@ -1,0 +1,27 @@
+c:\users\giva\desktop
+Comando para o git controlar as alterações da pasta "comando executado dentro da pasta, prompt do DOS
+1º Libera pasta para os arquivos: git init 
+2º Comando uma vez, para o "GIT", acessar o arquivo controlado:  git add index.html
+3º Comando: "git status" , mostrar os estado do arquivo 
+4º Comando para Gravar o arquivo: git comit -m *Grava arquivo*
+5ª Comando Gravar o nome do autor do Projeto: git config user.name *givanildo*
+6º Comando Gravar o email do autor Projeto: git config user.email *giva@gmail.com*
+7º Comando histório de comit"gravação" que foi feito : git log
+8º Montar as linhas que foram alteradas dentro dos arquivo alterados git whatchanged -p
+
+http://github.com
+1º Crie um usuário
+2] Crie um repositório "Pasta"
+3º Endereço para acessar o github: https://github.com/arquivosgiva/arquivos.git
+4º Criar um repositório remoto dentro da máquina para acessar o Servidor: git remote add origin https://github.com/arquivosgiva/arquivos.git
+5º Depois de criado digite o comando: git remote
+6º Vai ter que mostrar a pasta remota dentro do Git que foi criada: origin
+8º Comando: enviar os arquivos para Repositorio "Pasta" Servidor: git push origin master
+9º Verificar no site se os arquivos foram enviado
+10º Copiar uma pasta do Servidor para a minha máquina: git clone https://github.com/arquivosgiva/teste.git
+11º O git vai trazer a pasta inteira
+12º Altera o arquivo salvar e para o servidor Novamente
+*************************************************
+Colocar mais usuários para Utilizar os Projetos
+1º Clica no Botão Settings: Opção de Menu: Collaborators
+2º Digite o nome do usuário: clique no botão "Add Collaborator"
